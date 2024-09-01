@@ -24,3 +24,9 @@ def blend_faces(img1, img2):
 
     blended_landmarks = (landmarks1 + landmarks2) / 2
 
+    blended_face = np.zeros_like(img1)
+    for i in range(0, len(blended_landmarks)):
+        cv2.circle(blended_face, (int(blended_landmarks[i][0]), int(blended_landmarks[i][1])), 2, (255, 255, 255), -1)
+
+    return blended_face
+
