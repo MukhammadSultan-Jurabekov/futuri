@@ -1,6 +1,4 @@
-Here's a sample `README.md` file for the project:
 
-```markdown
 # FutureBaby - Predict Your Future Child's Appearance
 
 FutureBaby is a simple Python application that allows you to predict what your future child might look like by blending the facial features of two parent images.
