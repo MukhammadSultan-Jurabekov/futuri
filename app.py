@@ -30,3 +30,6 @@ def blend_faces(img1, img2):
 
     return blended_face
 
+image1 = cv2.imread("parent1.jpg")
+image2 = cv2.imread("parent2.jpg")
+
