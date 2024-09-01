@@ -1,7 +1,7 @@
 
-# FutureBaby - Predict Your Future Child's Appearance
+# FUTURI - Predict Your Future Child's Appearance
 
-FutureBaby is a simple Python application that allows you to predict what your future child might look like by blending the facial features of two parent images.
+FUTURI is a simple Python application that allows you to predict what your future child might look like by blending the facial features of two parent images.
 
 ## Features
 
@@ -128,7 +128,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-For any inquiries, please contact [yourname@domain.com].
+For any inquiries, please contact sjbkv21@gmail.com.
 ```
 
 ### Explanation:
