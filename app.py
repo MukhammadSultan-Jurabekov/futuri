@@ -14,3 +14,11 @@ def get_landmarks(image):
     else:
         return None
 
+def blend_faces(img1, img2):
+    landmarks1 = get_landmarks(img1)
+    landmarks2 = get_landmarks(img2)
+
+    if landmarks1 is None or landmarks2 is None:
+        print("Не удалось найти лица на одном из изображений.")
+        return None
+
