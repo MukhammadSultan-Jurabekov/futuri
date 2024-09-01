@@ -22,3 +22,5 @@ def blend_faces(img1, img2):
         print("Не удалось найти лица на одном из изображений.")
         return None
 
+    blended_landmarks = (landmarks1 + landmarks2) / 2
+
