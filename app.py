@@ -33,3 +33,9 @@ def blend_faces(img1, img2):
 image1 = cv2.imread("parent1.jpg")
 image2 = cv2.imread("parent2.jpg")
 
+child_face = blend_faces(image1, image2)
+
+# Сохраняем и показываем результат
+if child_face is not None:
+    cv2.imwrite("future_baby.jpg", child_face)
+    Image.open("future_baby.jpg").show()
